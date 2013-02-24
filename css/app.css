@@ -1,0 +1,81 @@
+body {
+  background: url('../img/bg.png');
+}
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  color:#019bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  margin-top: 45px;
+}
+
+p {
+  text-align: justify;
+}
+
+.right {
+  text-align: right;
+}
+
+.twitter-follow-button {
+  margin-top: 125px;
+}
+
+.logo {
+  padding-bottom: 50px;
+  border: 0;
+}
+
+.box {
+  margin: 0 0 30px 0;
+  background: #fff;
+  border: solid 1px #ddd;
+  box-shadow: 1px 1px 5px #efefef;
+  border-radius: 5px;
+}
+
+.box .header {
+  position: relative;
+  padding: 12px;
+  background: #f4f4f4;
+  font-size: 14px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: solid 1px #ddd;
+  font-size: 16px;
+  color: #888;
+  text-shadow: 1px 1px #fff;
+
+  background-image: -ms-linear-gradient(top, #FFFFFF 0%, #F0F0F0 100%);
+  background-image: -moz-linear-gradient(top, #FFFFFF 0%, #F0F0F0 100%);
+  background-image: -o-linear-gradient(top, #FFFFFF 0%, #F0F0F0 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #F0F0F0));
+  background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #F0F0F0 100%);
+  background-image: linear-gradient(to bottom, #FFFFFF 0%, #F0F0F0 100%);
+}
+
+.box .header i {
+  margin-right: 5px;
+}
+
+.box .header .badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.box .content {
+  padding: 15px;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666;
+}
