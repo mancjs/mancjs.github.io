@@ -99,3 +99,12 @@ div.footer .date {
   line-height: 1.7em;
   color: #666;
 }
+
+.event-image {
+  padding-bottom: 15px;
+  display: block;
+}
+
+.event-image:last-child {
+  padding: 0;
+}
