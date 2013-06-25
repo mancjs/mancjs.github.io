@@ -95,7 +95,7 @@ div.footer .date {
 
 .box .content {
   padding: 15px;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.7em;
   color: #666;
 }
@@ -107,4 +107,20 @@ div.footer .date {
 
 .event-image:last-child {
   padding: 0;
+}
+
+.job {
+  margin: 0 0 10px 0;
+  padding: 0 0 10px 0;
+  border-bottom: solid 1px #e7e7e7;
+}
+
+.job .company {
+  font-weight: 900;
+}
+
+.job:last-child {
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
